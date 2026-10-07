@@ -41,7 +41,7 @@ kubectl
    │
    ▼
 API Server
-
+```
 ---
 
 ## 2. etcd
@@ -238,8 +238,6 @@ spec:
 
 ---
 
-# ReplicaSet
-
 ## 8. ReplicaSet
 
 O **ReplicaSet** garante que uma determinada quantidade de Pods esteja
@@ -271,8 +269,6 @@ Cria Pod 4
 Assim, o número desejado de réplicas é mantido.
 
 ---
-
-# Deployment
 
 ## 9. Deployment
 
@@ -326,8 +322,6 @@ spec:
 
 ---
 
-# Service
-
 ## 10. Service
 
 O **Service** fornece uma forma estável de acessar um conjunto de Pods.
@@ -360,8 +354,6 @@ receberão o tráfego.
 
 ---
 
-# ConfigMap
-
 ## 11. ConfigMap
 
 O **ConfigMap** armazena configurações que não são informações sensíveis.
@@ -380,8 +372,6 @@ O Pod pode consumir essas configurações como:
 * Arquivos montados em volumes
 
 ---
-
-# Secret
 
 ## 12. Secret
 
@@ -407,8 +397,6 @@ Secret
 > segredos.
 
 ---
-
-# Namespace
 
 ## 13. Namespace
 
@@ -436,8 +424,6 @@ Cluster
 
 ---
 
-# Ingress
-
 ## 14. Ingress
 
 O **Ingress** permite definir regras para direcionar tráfego HTTP/HTTPS
@@ -464,8 +450,6 @@ O Ingress normalmente trabalha junto com um **Ingress Controller**.
 
 ---
 
-# PersistentVolume
-
 ## 15. PersistentVolume (PV)
 
 Um **PersistentVolume** representa armazenamento persistente disponível
@@ -487,8 +471,6 @@ Storage
 ```
 
 ---
-
-# PersistentVolumeClaim
 
 ## 16. PersistentVolumeClaim (PVC)
 
@@ -514,8 +496,6 @@ armazenamento físico.
 
 ---
 
-# Labels
-
 ## 17. Labels
 
 **Labels** são identificadores associados aos recursos Kubernetes.
@@ -531,8 +511,6 @@ labels:
 Eles são muito importantes para organizar e selecionar recursos.
 
 ---
-
-# Selector
 
 ## 18. Selector
 
@@ -556,8 +534,6 @@ Service
 Assim, o Service sabe para quais Pods deve encaminhar o tráfego.
 
 ---
-
-# kubectl
 
 ## 19. kubectl
 
@@ -615,8 +591,6 @@ kubectl delete pod minha-api
 Remove um Pod.
 
 ---
-
-# Arquivos YAML
 
 ## 20. Manifestos YAML
 
