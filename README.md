@@ -754,6 +754,3 @@ Enquanto o Control Plane mantém todo o cluster funcionando:
 | **Selector**           | Seleciona recursos através de Labels      |
 | **kubectl**            | Ferramenta CLI para administrar o cluster |
 | **YAML**               | Define o estado desejado dos recursos     |
-
-```
-```
