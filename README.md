@@ -1,6 +1,3 @@
-Claro. Abaixo está um Markdown com uma visão breve e organizada dos principais componentes e recursos do Kubernetes, incluindo **Pod, Service, Control Plane, kubectl, ReplicaSet, Deployment, Node**, entre outros.
-
-````markdown
 # Kubernetes — Principais Componentes e Recursos
 
 O Kubernetes é uma plataforma de orquestração de containers utilizada para
@@ -44,7 +41,6 @@ kubectl
    │
    ▼
 API Server
-````
 
 ---
 
