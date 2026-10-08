@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-app-pod
+  labels:
+    app: my-app
+spec:
+  containers:
+    - name: my-app-container
+      image: felipesabinodeoliveira/my_app_py_docker:2.0
+      ports:
+        - containerPort: 5000
