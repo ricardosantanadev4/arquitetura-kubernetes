@@ -46,8 +46,7 @@ API Server
 
 ## 2. etcd
 
-O **etcd** é um banco de dados distribuído utilizado pelo Kubernetes para
-armazenar o estado do cluster.
+O **etcd** é um armazenamento distribuído de chave-valor utilizado pelo Kubernetes para armazenar o estado e os dados de configuração do cluster.
 
 Ele mantém informações como:
 
@@ -201,7 +200,7 @@ no cluster.
 
 ## 7. Pod
 
-O **Pod** é a menor unidade de execução do Kubernetes.
+O **Pod** é a menor unidade de execução do Kubernetes, representa uma ou mais aplicações em execução, organizadas, normalmente, em um ou mais containers que compartilham rede e armazenamento.
 
 Normalmente um Pod contém **um container**, mas pode conter mais de um
 container quando eles precisam compartilhar recursos.
@@ -275,7 +274,7 @@ Assim, o número desejado de réplicas é mantido.
 O **Deployment** é normalmente utilizado para gerenciar aplicações
 stateless.
 
-Ele utiliza ReplicaSets para controlar os Pods.
+Ele utiliza ReplicaSet para controlar os Pods.
 
 Além disso, permite realizar:
 
@@ -742,7 +741,7 @@ Enquanto o Control Plane mantém todo o cluster funcionando:
 | **Container Runtime**  | Executa os containers                     |
 | **Pod**                | Menor unidade de execução                 |
 | **ReplicaSet**         | Mantém determinada quantidade de Pods     |
-| **Deployment**         | Gerencia versões e ReplicaSets            |
+| **Deployment**         | Gerencia versões e ReplicaSet            |
 | **Service**            | Fornece acesso estável aos Pods           |
 | **Ingress**            | Roteia tráfego HTTP/HTTPS                 |
 | **ConfigMap**          | Armazena configurações                    |
